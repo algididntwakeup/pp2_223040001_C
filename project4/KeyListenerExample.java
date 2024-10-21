@@ -4,7 +4,7 @@ import javax.swing.*;
 public class KeyListenerExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("KeyListener Example");
-        JLabel label = new JLabel("Tekan tombol pada keyboard");
+        JLabel label = new JLabel("coba pencet tombol di kibot dah");
         label.setBounds(50,50,300,30);
 
         JTextField textField = new JTextField();

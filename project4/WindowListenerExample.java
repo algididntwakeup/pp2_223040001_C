@@ -3,7 +3,7 @@ import javax.swing.*;
 public class WindowListenerExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("WindowListener Example");
-        JLabel label = new JLabel("Lakukan operasi anda pada jendela");
+        JLabel label = new JLabel("cba buka tutup windowny");
         label.setBounds(50,50,300,30);
         frame.addWindowListener(new WindowListener() {
             public void windowOpened(WindowEvent e) {

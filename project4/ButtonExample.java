@@ -5,12 +5,12 @@ public class ButtonExample {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Button Example");
-        JButton button = new JButton("Click me!");
+        JButton button = new JButton("pencet sy");
 
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(frame, "Button clicked!");
+                JOptionPane.showMessageDialog(frame, "duaarrr memei");
             }
         });
 

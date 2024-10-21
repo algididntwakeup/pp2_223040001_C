@@ -5,7 +5,7 @@ public class MouseListenerExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("MouseListener Example");
 
-        JLabel label = new JLabel("Arahkan dan klik mouse pada area ini");
+        JLabel label = new JLabel("Arahin trus klik mos kesini bre");
         label.setBounds(50,50,300,30);
 
         label.addMouseListener(new MouseListener() {
